@@ -9,7 +9,7 @@ import com.theenabler.medassist.dao.PatientDao;
 import com.theenabler.medassist.models.Patient;
 
 @Service
-public class PatientServiceImpl implements PatientService{
+public class PatientServiceImpl implements PatientService {
 
 	@Autowired
 	PatientDao patientDao;
